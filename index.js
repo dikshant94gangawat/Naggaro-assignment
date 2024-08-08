@@ -73,7 +73,7 @@ const confirmSaveButton = document.getElementById("confirmSave");
 const cancelSaveButton = document.getElementById("cancelSave");
 
 saveButton.addEventListener("click", () => {
-  loader.classList.remove("hidden");
+
 
   confirmationPopup.classList.remove("hidden");
 
